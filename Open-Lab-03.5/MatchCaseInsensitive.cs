@@ -8,7 +8,7 @@ namespace Open_Lab_03._5
     {
         public bool Match (string a, string b)
         {
-            return a == b;
+            return a.ToLower() == b.ToLower();
         }
     }
 }

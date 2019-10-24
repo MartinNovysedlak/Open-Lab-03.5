@@ -12,7 +12,7 @@ namespace Open_Lab_03._5
 
             MatchCaseInsensitive mci = new MatchCaseInsensitive();
 
-            Console.WriteLine(mci.Match(a.ToLower(), b.ToLower()));
+            Console.WriteLine(mci.Match(a, b));
         }
     }
 }
